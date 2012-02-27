@@ -39,24 +39,24 @@
 		FE0AFE9714FC1E060071719C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE0AFE9914FC1E060071719C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE0AFE9B14FC1E060071719C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FE0AFE9F14FC1E060071719C /* Journalism-iWorkbook-Info.plist */ = {isa = PBXFileReference; path = "Journalism-iWorkbook-Info.plist"; sourceTree = "<group>"; };
+		FE0AFE9F14FC1E060071719C /* Journalism-iWorkbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Journalism-iWorkbook-Info.plist"; sourceTree = "<group>"; };
 		FE0AFEA114FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE0AFEA314FC1E070071719C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE0AFEA514FC1E070071719C /* Journalism-iWorkbook-Prefix.pch */ = {isa = PBXFileReference; path = "Journalism-iWorkbook-Prefix.pch"; sourceTree = "<group>"; };
-		FE0AFEA614FC1E070071719C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE0AFEA514FC1E070071719C /* Journalism-iWorkbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Journalism-iWorkbook-Prefix.pch"; sourceTree = "<group>"; };
+		FE0AFEA614FC1E070071719C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE0AFEA714FC1E070071719C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE0AFEA914FC1E070071719C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		FE0AFEA914FC1E070071719C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		FE0AFEAA14FC1E070071719C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		FE0AFEAC14FC1E070071719C /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		FE0AFEAC14FC1E070071719C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
 		FE0AFEAD14FC1E070071719C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		FE0AFEAF14FC1E070071719C /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		FE0AFEAF14FC1E070071719C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		FE0AFEB014FC1E070071719C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		FE0AFEB314FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FE0AFEBA14FC1E070071719C /* Journalism-iWorkbookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journalism-iWorkbookTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0AFEBB14FC1E070071719C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		FE0AFEC314FC1E070071719C /* Journalism-iWorkbookTests-Info.plist */ = {isa = PBXFileReference; path = "Journalism-iWorkbookTests-Info.plist"; sourceTree = "<group>"; };
+		FE0AFEC314FC1E070071719C /* Journalism-iWorkbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Journalism-iWorkbookTests-Info.plist"; sourceTree = "<group>"; };
 		FE0AFEC514FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FE0AFEC714FC1E070071719C /* Journalism_iWorkbookTests.h */ = {isa = PBXFileReference; path = Journalism_iWorkbookTests.h; sourceTree = "<group>"; };
+		FE0AFEC714FC1E070071719C /* Journalism_iWorkbookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Journalism_iWorkbookTests.h; sourceTree = "<group>"; };
 		FE0AFEC814FC1E070071719C /* Journalism_iWorkbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Journalism_iWorkbookTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

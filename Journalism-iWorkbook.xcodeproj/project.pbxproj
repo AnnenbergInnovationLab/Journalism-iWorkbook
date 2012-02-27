@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0AFE9814FC1E060071719C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFE9714FC1E060071719C /* UIKit.framework */; };
+		FE0AFE9A14FC1E060071719C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFE9914FC1E060071719C /* Foundation.framework */; };
+		FE0AFE9C14FC1E060071719C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFE9B14FC1E060071719C /* CoreGraphics.framework */; };
+		FE0AFEA214FC1E070071719C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE0AFEA014FC1E070071719C /* InfoPlist.strings */; };
+		FE0AFEA414FC1E070071719C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEA314FC1E070071719C /* main.m */; };
+		FE0AFEA814FC1E070071719C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEA714FC1E070071719C /* AppDelegate.m */; };
+		FE0AFEAB14FC1E070071719C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEAA14FC1E070071719C /* RootViewController.m */; };
+		FE0AFEAE14FC1E070071719C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEAD14FC1E070071719C /* DataViewController.m */; };
+		FE0AFEB114FC1E070071719C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEB014FC1E070071719C /* ModelController.m */; };
+		FE0AFEB414FC1E070071719C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0AFEB214FC1E070071719C /* MainStoryboard.storyboard */; };
+		FE0AFEBC14FC1E070071719C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFEBB14FC1E070071719C /* SenTestingKit.framework */; };
+		FE0AFEBD14FC1E070071719C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFE9714FC1E060071719C /* UIKit.framework */; };
+		FE0AFEBE14FC1E070071719C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0AFE9914FC1E060071719C /* Foundation.framework */; };
+		FE0AFEC614FC1E070071719C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE0AFEC414FC1E070071719C /* InfoPlist.strings */; };
+		FE0AFEC914FC1E070071719C /* Journalism_iWorkbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0AFEC814FC1E070071719C /* Journalism_iWorkbookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0AFEBF14FC1E070071719C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0AFE8A14FC1E060071719C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0AFE9214FC1E060071719C;
+			remoteInfo = "Journalism-iWorkbook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0AFE9314FC1E060071719C /* Journalism-iWorkbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journalism-iWorkbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0AFE9714FC1E060071719C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE0AFE9914FC1E060071719C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE0AFE9B14FC1E060071719C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE0AFE9F14FC1E060071719C /* Journalism-iWorkbook-Info.plist */ = {isa = PBXFileReference; path = "Journalism-iWorkbook-Info.plist"; sourceTree = "<group>"; };
+		FE0AFEA114FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE0AFEA314FC1E070071719C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE0AFEA514FC1E070071719C /* Journalism-iWorkbook-Prefix.pch */ = {isa = PBXFileReference; path = "Journalism-iWorkbook-Prefix.pch"; sourceTree = "<group>"; };
+		FE0AFEA614FC1E070071719C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE0AFEA714FC1E070071719C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE0AFEA914FC1E070071719C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		FE0AFEAA14FC1E070071719C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FE0AFEAC14FC1E070071719C /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		FE0AFEAD14FC1E070071719C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		FE0AFEAF14FC1E070071719C /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		FE0AFEB014FC1E070071719C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		FE0AFEB314FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FE0AFEBA14FC1E070071719C /* Journalism-iWorkbookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journalism-iWorkbookTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0AFEBB14FC1E070071719C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE0AFEC314FC1E070071719C /* Journalism-iWorkbookTests-Info.plist */ = {isa = PBXFileReference; path = "Journalism-iWorkbookTests-Info.plist"; sourceTree = "<group>"; };
+		FE0AFEC514FC1E070071719C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE0AFEC714FC1E070071719C /* Journalism_iWorkbookTests.h */ = {isa = PBXFileReference; path = Journalism_iWorkbookTests.h; sourceTree = "<group>"; };
+		FE0AFEC814FC1E070071719C /* Journalism_iWorkbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Journalism_iWorkbookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0AFE9014FC1E060071719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFE9814FC1E060071719C /* UIKit.framework in Frameworks */,
+				FE0AFE9A14FC1E060071719C /* Foundation.framework in Frameworks */,
+				FE0AFE9C14FC1E060071719C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0AFEB614FC1E070071719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFEBC14FC1E070071719C /* SenTestingKit.framework in Frameworks */,
+				FE0AFEBD14FC1E070071719C /* UIKit.framework in Frameworks */,
+				FE0AFEBE14FC1E070071719C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0AFE8814FC1E060071719C = {
+			isa = PBXGroup;
+			children = (
+				FE0AFE9D14FC1E060071719C /* Journalism-iWorkbook */,
+				FE0AFEC114FC1E070071719C /* Journalism-iWorkbookTests */,
+				FE0AFE9614FC1E060071719C /* Frameworks */,
+				FE0AFE9414FC1E060071719C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0AFE9414FC1E060071719C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFE9314FC1E060071719C /* Journalism-iWorkbook.app */,
+				FE0AFEBA14FC1E070071719C /* Journalism-iWorkbookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0AFE9614FC1E060071719C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFE9714FC1E060071719C /* UIKit.framework */,
+				FE0AFE9914FC1E060071719C /* Foundation.framework */,
+				FE0AFE9B14FC1E060071719C /* CoreGraphics.framework */,
+				FE0AFEBB14FC1E070071719C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE0AFE9D14FC1E060071719C /* Journalism-iWorkbook */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFEA614FC1E070071719C /* AppDelegate.h */,
+				FE0AFEA714FC1E070071719C /* AppDelegate.m */,
+				FE0AFEA914FC1E070071719C /* RootViewController.h */,
+				FE0AFEAA14FC1E070071719C /* RootViewController.m */,
+				FE0AFEAC14FC1E070071719C /* DataViewController.h */,
+				FE0AFEAD14FC1E070071719C /* DataViewController.m */,
+				FE0AFEAF14FC1E070071719C /* ModelController.h */,
+				FE0AFEB014FC1E070071719C /* ModelController.m */,
+				FE0AFEB214FC1E070071719C /* MainStoryboard.storyboard */,
+				FE0AFE9E14FC1E060071719C /* Supporting Files */,
+			);
+			path = "Journalism-iWorkbook";
+			sourceTree = "<group>";
+		};
+		FE0AFE9E14FC1E060071719C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFE9F14FC1E060071719C /* Journalism-iWorkbook-Info.plist */,
+				FE0AFEA014FC1E070071719C /* InfoPlist.strings */,
+				FE0AFEA314FC1E070071719C /* main.m */,
+				FE0AFEA514FC1E070071719C /* Journalism-iWorkbook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE0AFEC114FC1E070071719C /* Journalism-iWorkbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFEC714FC1E070071719C /* Journalism_iWorkbookTests.h */,
+				FE0AFEC814FC1E070071719C /* Journalism_iWorkbookTests.m */,
+				FE0AFEC214FC1E070071719C /* Supporting Files */,
+			);
+			path = "Journalism-iWorkbookTests";
+			sourceTree = "<group>";
+		};
+		FE0AFEC214FC1E070071719C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AFEC314FC1E070071719C /* Journalism-iWorkbookTests-Info.plist */,
+				FE0AFEC414FC1E070071719C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0AFE9214FC1E060071719C /* Journalism-iWorkbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0AFECC14FC1E070071719C /* Build configuration list for PBXNativeTarget "Journalism-iWorkbook" */;
+			buildPhases = (
+				FE0AFE8F14FC1E060071719C /* Sources */,
+				FE0AFE9014FC1E060071719C /* Frameworks */,
+				FE0AFE9114FC1E060071719C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Journalism-iWorkbook";
+			productName = "Journalism-iWorkbook";
+			productReference = FE0AFE9314FC1E060071719C /* Journalism-iWorkbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0AFEB914FC1E070071719C /* Journalism-iWorkbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0AFECF14FC1E070071719C /* Build configuration list for PBXNativeTarget "Journalism-iWorkbookTests" */;
+			buildPhases = (
+				FE0AFEB514FC1E070071719C /* Sources */,
+				FE0AFEB614FC1E070071719C /* Frameworks */,
+				FE0AFEB714FC1E070071719C /* Resources */,
+				FE0AFEB814FC1E070071719C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0AFEC014FC1E070071719C /* PBXTargetDependency */,
+			);
+			name = "Journalism-iWorkbookTests";
+			productName = "Journalism-iWorkbookTests";
+			productReference = FE0AFEBA14FC1E070071719C /* Journalism-iWorkbookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0AFE8A14FC1E060071719C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FE0AFE8D14FC1E060071719C /* Build configuration list for PBXProject "Journalism-iWorkbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE0AFE8814FC1E060071719C;
+			productRefGroup = FE0AFE9414FC1E060071719C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0AFE9214FC1E060071719C /* Journalism-iWorkbook */,
+				FE0AFEB914FC1E070071719C /* Journalism-iWorkbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0AFE9114FC1E060071719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFEA214FC1E070071719C /* InfoPlist.strings in Resources */,
+				FE0AFEB414FC1E070071719C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0AFEB714FC1E070071719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFEC614FC1E070071719C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE0AFEB814FC1E070071719C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0AFE8F14FC1E060071719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFEA414FC1E070071719C /* main.m in Sources */,
+				FE0AFEA814FC1E070071719C /* AppDelegate.m in Sources */,
+				FE0AFEAB14FC1E070071719C /* RootViewController.m in Sources */,
+				FE0AFEAE14FC1E070071719C /* DataViewController.m in Sources */,
+				FE0AFEB114FC1E070071719C /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0AFEB514FC1E070071719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0AFEC914FC1E070071719C /* Journalism_iWorkbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0AFEC014FC1E070071719C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0AFE9214FC1E060071719C /* Journalism-iWorkbook */;
+			targetProxy = FE0AFEBF14FC1E070071719C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0AFEA014FC1E070071719C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0AFEA114FC1E070071719C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE0AFEB214FC1E070071719C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0AFEB314FC1E070071719C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0AFEC414FC1E070071719C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0AFEC514FC1E070071719C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0AFECA14FC1E070071719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FE0AFECB14FC1E070071719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0AFECD14FC1E070071719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journalism-iWorkbook/Journalism-iWorkbook-Prefix.pch";
+				INFOPLIST_FILE = "Journalism-iWorkbook/Journalism-iWorkbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE0AFECE14FC1E070071719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journalism-iWorkbook/Journalism-iWorkbook-Prefix.pch";
+				INFOPLIST_FILE = "Journalism-iWorkbook/Journalism-iWorkbook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FE0AFED014FC1E070071719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Journalism-iWorkbook.app/Journalism-iWorkbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journalism-iWorkbook/Journalism-iWorkbook-Prefix.pch";
+				INFOPLIST_FILE = "Journalism-iWorkbookTests/Journalism-iWorkbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FE0AFED114FC1E070071719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Journalism-iWorkbook.app/Journalism-iWorkbook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Journalism-iWorkbook/Journalism-iWorkbook-Prefix.pch";
+				INFOPLIST_FILE = "Journalism-iWorkbookTests/Journalism-iWorkbookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0AFE8D14FC1E060071719C /* Build configuration list for PBXProject "Journalism-iWorkbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0AFECA14FC1E070071719C /* Debug */,
+				FE0AFECB14FC1E070071719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0AFECC14FC1E070071719C /* Build configuration list for PBXNativeTarget "Journalism-iWorkbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0AFECD14FC1E070071719C /* Debug */,
+				FE0AFECE14FC1E070071719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE0AFECF14FC1E070071719C /* Build configuration list for PBXNativeTarget "Journalism-iWorkbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0AFED014FC1E070071719C /* Debug */,
+				FE0AFED114FC1E070071719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0AFE8A14FC1E060071719C /* Project object */;
+}
